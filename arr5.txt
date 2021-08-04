@@ -1,0 +1,17 @@
+Q5.
+var arr = [2, 56, 78, 34, 65];
+var new_arr = arr.map(function(num) {
+return num / 2;
+});
+print(new_arr);
+What will be the output for the above code?
+
+
+Ans: this code gives an error because print is not define in js. for printing we use console.log() in js.
+var arr = [2, 56, 78, 34, 65];
+var new_arr = arr.map(function(num) {
+return num / 2;
+});
+console.log(new_arr);
+
+	when we use consol.log() instate of print then code gives an array of each element is divisiable by 2.

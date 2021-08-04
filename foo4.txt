@@ -1,0 +1,19 @@
+Q4. Consider the two functions below. Will they both return the same thing? Why or why
+not?
+function foo1()
+{
+return {
+bar: "hello"
+};
+}
+function foo2()
+{
+return
+{
+bar: "hello"
+};
+}
+
+
+
+Ans: in javascript ; means nothing ; is unnecessay part of javascript. in javascript global contex is created because of that first funcation return a value and 2nd is undifine.
